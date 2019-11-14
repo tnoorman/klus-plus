@@ -1,0 +1,17 @@
+.profile {
+
+    &__container {
+
+        .form {
+
+            .cta {
+                justify-content: space-between;
+
+                .danger {
+                    font-size: .6rem;
+                    color: #f49d9d;
+                }
+            }
+        }
+    }
+}

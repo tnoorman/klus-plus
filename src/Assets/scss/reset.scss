@@ -1,0 +1,63 @@
+*, 
+*::before,
+*::after,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+input,
+select,
+option,
+textarea {
+    border: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="number"],
+select {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+select::-webkit-outer-spin-button,
+select::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}

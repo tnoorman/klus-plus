@@ -1,0 +1,93 @@
+.request-repair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    &__container {
+        margin-top: 20px;
+        
+        .form {
+            align-items: inherit;
+            justify-content: space-evenly;
+            height: 70vh;
+            
+            .select-category {
+                position: relative;
+                width: 40%;
+
+                select {
+                    width: 100%;
+                }
+
+                .spinner {
+                    top: 42px;
+                    pointer-events: none;
+                }
+            }
+
+
+
+            &-group {
+
+                &-date {
+                    display: flex;
+                    width: 65vw;
+    
+                    .date {
+                        display: flex;
+                        justify-content: space-between;
+    
+                        &-day {
+                            width: 25%;
+                            position: relative;
+    
+                            input {
+                                width: 100%;
+                            }
+                        }
+    
+                        &-month {
+                            width: 45%;
+                            position: relative;
+    
+                            select {
+                                width: 100%;
+                            }
+    
+                            .spinner {
+                                top: 42px;
+                                pointer-events: none;
+                            }
+                        }
+    
+                        &-year {
+                            width: 22%;
+    
+                            input {
+                                width: 100%;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                textarea {
+                    height: 20vh;
+                }
+            }
+        }
+    }
+}
+
+.spinner {
+    position: absolute;
+    top: 36px;
+    right: 8px;
+    display: flex;
+    flex-direction: column;
+
+    button {
+        font-size: 10px;
+        height: 12px
+    }
+}

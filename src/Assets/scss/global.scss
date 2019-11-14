@@ -1,0 +1,70 @@
+body {
+    width: 100vw;
+    height: calc(100vh - 7.8vh);
+    background: url('#{$imagesPath}/bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.cta-button {
+    padding: 1rem 1.5rem;
+    background-color:#009CDC;
+    text-transform: uppercase;
+    border-radius: 15px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        input,
+        select,
+        option,
+        textarea {
+            width: 65vw;
+            padding: .25em .4em;
+        }
+    }
+
+    .cta {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 20px;
+
+        &-button {
+            padding: .7em 1.4em;
+        }
+    }
+    
+}
+
+.back-btn {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
